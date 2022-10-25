@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MateAR$</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="presentacion">
+      <h1>MateAR$</h1>
+      <p>
+        Es una aplicacion de escritorio con el fin de sacarle el calculo a la cantidad de GRDAO que tengas
+        a tu disposicion
+      </p>
+    </div>
+
+    <div class="calcular">
+      <div class="calcular__Form">
+        <input type="number" name="valor" id="valor">
+      </div>
+
+      <div class="calcular__Submit">
+        <button 
+          type="button" 
+          name="button" 
+          id="enviar" 
+        >enviar</button>
+      </div>
+    </div>
+
+    <div class="resultados">
+        <p id="grdao"></p>
+        <p id="gico"></p>
+        <p id="euro"></p>
+        <p id="dolar"></p>
+        <p id="dolarOf"></p>
+        <p id="dolarBlue"></p>
+    </div>
+
+    <footer>
+      <a href="https://nachengue007.github.io/portafolio-web/" id="links">portafolio web</a>
+    </footer>
+     <!-- JS code -->
+    <script src="grdaoConvert.js" type="module"></script>
+  </body>
+</html>

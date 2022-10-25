@@ -1,0 +1,47 @@
+*{
+  color: #06d6a0;
+  background-color: #073b4c;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  color: #ffd166;
+}
+
+footer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  margin: 2em;
+}
+
+.calcular{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+.resultados{
+  display: block;
+  margin:auto;  
+  background-color: #043444;
+  padding: 1em;
+  width: 30em;
+}
+
+#grdao, #gico, #euro, #dolar, #dolarOf, #dolarBlue{
+  color: #ef476f;
+  background-color: #043444;
+}
+
+#links{
+  text-decoration: none;
+  padding: 1em;
+  background-color: #118ab2;
+  color: #043444;
+}
+#links:hover{
+  background-color: #1137b2;
+  color: #0a0444;
+}
