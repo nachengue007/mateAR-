@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded",function(){
   const valor = document.getElementById("valor");
   const button = document.getElementById("enviar");
 
-  let gicoVal = 708.66699737, euroVal = 34.21, dolarVal = 0.98, arsValOf = 162.17, arsBlueVal = 293;
+  //24/10/2022 14:00
+  let gicoVal = 708.66699737, euroVal = 34.40, dolarVal = 1, arsValOf = 162.17, arsBlueVal = 293;
   
   /*
   Tengo que arreglar el problema que tiene con el cors
