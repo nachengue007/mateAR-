@@ -1,10 +1,14 @@
 document.addEventListener("DOMContentLoaded",function(){
   const valor = document.getElementById("valor");
   const button = document.getElementById("enviar");
-  const API_URL = "https://api.estadisticasbcra.com";
 
-  let gicoVal = 708.66699737, euroVal = 34.21, dolarVal = 0.98, arsValOf = 0, arsBlueVal = 291;
-      
+  let gicoVal = 708.66699737, euroVal = 34.21, dolarVal = 0.98, arsValOf = 162.17, arsBlueVal = 293;
+  
+  /*
+  Tengo que arreglar el problema que tiene con el cors
+  
+  const API_URL = "https://api.estadisticasbcra.com";
+  
   fetch(`${API_URL}/usd_of`,{
     headers: {
     Authorization: 
@@ -16,6 +20,7 @@ document.addEventListener("DOMContentLoaded",function(){
     const l = data.length;
     let aux = data.map((val) => `${val.v}`); arsValOf = aux[l-1];
   });
+  */
   
   button.onclick = function(){
     //saldo en diferentes monedas
