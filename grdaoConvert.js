@@ -3,10 +3,11 @@ document.addEventListener("DOMContentLoaded",function(){
   const button = document.getElementById("enviar");
 
   //24/10/2022 14:00
-  let gicoVal = 708.66699737, euroVal = 34.40, dolarVal = 1, arsValOf = 162.17, arsBlueVal = 293;
+  let gicoVal = 708.66699737, euroVal = 34.40, dolarVal = 1, arsValOf = 164.74, arsBlueVal = 287;
   
   /*
   Tengo que arreglar el problema que tiene con el cors
+ 
   
   const API_URL = "https://api.estadisticasbcra.com";
   
@@ -22,6 +23,7 @@ document.addEventListener("DOMContentLoaded",function(){
     let aux = data.map((val) => `${val.v}`); arsValOf = aux[l-1];
   });
   */
+  //async await
   
   button.onclick = function(){
     //saldo en diferentes monedas
